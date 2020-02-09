@@ -1,0 +1,10 @@
+vbell on
+hardstatus alwayslastline "%{rk}%H %{gk}%c %{yk}%M%d %{wk}%?%-Lw%?%{bw}%n*%f %t%?(%u)%?%{wk}%?%+Lw%?"
+defencoding UTF-8
+termcapinfo xterm ti@:te@
+escape ^Oo
+bindkey -k k6 prev
+shell bash
+#Auindow => A is the Ctrl-A for this screen shift :-)
+shelltitle "C-Ouindow"
+defscrollback 5000
